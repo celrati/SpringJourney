@@ -1,5 +1,7 @@
 package com.springdemo;
 
+import com.sprindemoannotation.Coach2;
+
 public class BaseBallCoach implements Coach {
 
 

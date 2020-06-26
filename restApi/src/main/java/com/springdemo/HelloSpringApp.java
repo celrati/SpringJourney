@@ -1,5 +1,6 @@
 package com.springdemo;
 
+import com.sprindemoannotation.Coach2;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringApp {

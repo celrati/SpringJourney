@@ -1,5 +1,7 @@
 package com.springdemo;
 
+
+
 public class CricketCoach implements Coach {
 
     private String emailAddress;
