@@ -7,7 +7,7 @@ public class AnnotationDemoApp {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("autoscan-applicationContext.xml");
         Coach2 coach = context.getBean("thatSillyCoach", Coach2.class);
-        System.out.println(coach.getDailyWorkout());
+        System.out.println(coach.getDailyFortune());
         context.close();
     }
 }
